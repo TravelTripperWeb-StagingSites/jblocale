@@ -1,9 +1,34 @@
 ---
-layout: default
-title: Region Example
+title_localized:
+  en: Example Hotel
+  es: Ejemplo de hotel
+label_localized:
+  en: 
+layout_localized:
+  en: default
+permalink_localized:
+  en: 
+meta_description_localized:
+  en: 
+meta_keywords_localized:
+  en: 
 ---
-
-Regions:
-<hr/>
-{% region region1 %}
-{% region region2 %}
+<div id="home">
+  <div id="hero">
+    <img src='/assets/images/home-hero.jpg' />
+    <div class='hero-content'>
+      <h2>Promo Line</h2>
+      <p>Subheader Line Here</p>
+      <a href="" class='button'>Book Now</a>
+    </div>
+  </div>
+  <section>
+    {% region home_about %}
+  </section>
+  <section>
+    {% region home_rooms %}
+  </section>
+  <section>
+    {% region home_ammentities %}
+  </section>
+</div>
