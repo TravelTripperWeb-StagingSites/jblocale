@@ -1,6 +1,6 @@
+default_lang: 'en'
+languages: ['en', 'es']
 
-gems:
-- jekyll-sitemap
 keep_files:
 - assets
 rsync_copy:
@@ -11,5 +11,11 @@ exclude:
 - old_media.json
 - models.json
 
-default_lang: 'en'
-languages: ['en']
+page_gen:
+  - data: 'amenities'
+    template: 'amenity'
+    dir: 'amenities'
+
+exclude:
+  - 'sitemap.json'
+  - 'assets'

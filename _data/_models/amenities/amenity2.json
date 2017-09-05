@@ -1,0 +1,10 @@
+{
+  "name": "Pool!",
+  "image": {
+    "url": "/assets/images/amenities/pool.jpg"
+  },
+  "description_localized": {
+    "en": "<p>This is a pool and it's in english!</p>\n<p>&nbsp;</p>",
+    "es": "<p><br class=\"Apple-interchange-newline\" /><span style=\"color: #212121; font-family: Roboto, arial, sans-serif; font-size: 16px; white-space: pre-wrap;\">Esto es una piscina y est&aacute; en ingl&eacute;s!</span></p>"
+  }
+}
